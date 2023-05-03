@@ -1,0 +1,63 @@
+@import url('colores.css');
+
+.xico{
+  
+  margin-top: 2%;
+}
+.carrousel{
+  width: 75%;
+  max-width: 120em;
+  padding: 1em;
+  display: flexbox;
+  overflow: hidden;
+  margin-top: 1%;
+  margin-left: 13%;
+  margin-bottom: 1%;
+  border-radius: 30px;
+  background-color: var(--color-fondo);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+ }
+.carrousel .content{
+  width: 600%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  
+}
+.carrousel .card1, .card2, .card3, .card4, .card5 {
+  background-color: rgb(187, 198, 183);
+  width: calc(100%/6);
+  margin: 0.5%;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+}
+.carrousel .puntos{
+  width: 100%;
+  padding: 0em;
+  border: 2px solid;
+  border-color: rgb(160, 243, 109);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: var(--color-fondo-palido);
+  border-radius: 30px;
+  box-shadow: rgba(147, 242, 45, 0.17) 0px -23px 25px 0px inset, rgba(175, 203, 173, 0.15) 0px -36px 30px 0px inset, rgba(68, 242, 52, 0.1) 0px -79px 40px 0px inset, rgba(6, 241, 6, 0.06) 0px 2px 1px, rgba(38, 184, 63, 0.09) 0px 4px 2px, rgba(10, 238, 22, 0.09) 0px 8px 4px, rgba(2, 16, 2, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.carrousel .punto{
+  border: 1px solid;
+  border-color: green;
+  width: 2em;
+  height: 2em;
+  background-color: rgba(0, 0, 0, 0.038);
+  margin: 1em;
+  border-radius: 50px;
+}
+ol, ul, dl {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+.carrousel .punto.activo{
+  background: var(--color-amarillo-brillante);
+  background: radial-gradient(circle,var(--color-amarillo-brillante) 0%, var(--color-amarillo-verdoso) 59%, rgba(121, 235, 130, 0.52) 100%);
+}

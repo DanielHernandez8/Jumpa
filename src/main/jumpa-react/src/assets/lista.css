@@ -1,0 +1,20 @@
+.lista {
+    width: 190px;
+    height: 254px;
+    /* background: lightgrey; */
+    border: 1px inset lightgrey;
+    /* background: #e8e8e8; */
+    /* box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff; */
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    /* color: #8a8989; */
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .lista:hover {
+    transform: translateY(-5px);
+    transition: all .2s ease-in-out;
+  }

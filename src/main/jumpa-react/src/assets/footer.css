@@ -1,0 +1,99 @@
+footer{
+    background: var(--color-fondo-sombra);
+    padding-bottom: 0.1px;
+    margin-top: 4%;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.brand{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.social-media-icon + .my-tooltip{
+    display: block;
+}
+
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media-icon1, .social-media-icon2, .social-media-icon3, .social-media-icon4{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image:url(../../public/img/linkedin.png );
+    background-repeat: no-repeat;
+    background-size:initial;
+    background-position:center;
+    
+
+}
+.social-media-icon1:hover{
+    background: white;
+    color: #a5e292;
+    background-image:url(../../public/img/avatar_dani.png );
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.social-media-icon2:hover{
+    background: white;
+    color: #a5e292;
+    background-image:url(../../public/img/avatar_pau.png );
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.social-media-icon3:hover{
+    background: white;
+    color: #a5e292;
+    background-image:url(../../public/img/avatar_ricky.png );
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.social-media-icon4:hover{
+    background: white;
+    color: #a5e292;
+    background-image:url(../../public/img/avatar_jenny.png );
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+    
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: white;
+    margin-bottom: 60px;
+}
+
+.linkedin1{
+    
+}
